@@ -31,7 +31,7 @@ This ecosystem guide tracks platforms designed to define, test, plan, provision,
 - [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
 - [💻 Open-Source GitHub Projects](#-open-source-github-projects)
-  - [⭐ Ranked by GitHub Stars](#-ranked-by-github-stars)
+  - [⭐ Ranked by GitHub_Stars](#-ranked-by-github-stars)
   - [🏗️ Recommended Architecture Combinations](#️-recommended-architecture-combinations)
 - [📈 Star History](#-star-history)
 - [🤝 How to Contribute](#-how-to-contribute)
@@ -69,7 +69,7 @@ Below is the verified breakdown of leading SaaS and hosted infrastructure orches
 
 ## 💻 Open-Source GitHub Projects
 
-### ⭐ Ranked by GitHub Stars
+### ⭐ Ranked by GitHub_Stars
 
 Every major open-source infrastructure-as-code engine, configuration manager, GitOps operator, policy scanner, and orchestration runner sorted strictly in descending order of GitHub stargazers:
 
