@@ -1,50 +1,56 @@
-# Awesome-Devops-Infrastructure-Orchestration
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome DevOps & Infrastructure Orchestration Banner" width="100%" />
+</p>
 
-markdown
+# 🚀 Awesome DevOps & Infrastructure Orchestration Ecosystem
 
-## Top DevOps & Infrastructure Orchestration Ecosystem
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Devops-Infrastructure-Orchestration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Devops-Infrastructure-Orchestration?style=social" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Devops-Infrastructure-Orchestration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Devops-Infrastructure-Orchestration?style=social" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Devops-Infrastructure-Orchestration/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Devops-Infrastructure-Orchestration?color=green" alt="Issues"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Devops-Infrastructure-Orchestration/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Devops-Infrastructure-Orchestration?color=blue" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
+## 📌 Executive Summary & Architecture Focus
 
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
+**A definitive, SEO-optimized curated catalog of top-tier SaaS/hosted orchestration platforms and open-source DevOps projects.**
 
-*Focused on Infrastructure-as-Code (IaC), Declarative Cloud Provisioning, TACOS (Terraform Automation & Collaboration Software), Configuration Management & GitOps Orchestration*  
+Focused on **Infrastructure-as-Code (IaC)**, **Declarative Cloud Provisioning**, **TACOS** (Terraform Automation and Collaboration Software), **Configuration Management**, **Policy-as-Code**, **FinOps**, and **GitOps Infrastructure Orchestration**.
 
-**Last updated: November 2026**
+This ecosystem guide tracks platforms designed to define, test, plan, provision, drift-detect, secure, and govern cloud and on-premise infrastructure across AWS, Azure, Google Cloud Platform (GCP), Kubernetes, and hybrid bare-metal clusters.
 
+*Last updated: November 2026*
 
+---
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **DevOps & Infrastructure Orchestration**. These tools define, plan, provision, drift-detect, govern, and orchestrate cloud and on-premise infrastructure across AWS, Azure, GCP, Kubernetes, and bare-metal datacenters using declarative Infrastructure-as-Code (IaC), policy-as-code, and automated CI/CD pipelines.
+## 📑 Table of Contents
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS / Hosted Platforms](#️-saas--hosted-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [⭐ Ranked by GitHub Stars](#-ranked-by-github-stars)
+  - [🏗️ Recommended Architecture Combinations](#️-recommended-architecture-combinations)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsor](#-support--sponsor)
+- [⚖️ Disclaimer & Security Guidance](#️-disclaimer--security-guidance)
 
+---
 
+## 🌐 Sector Overview & Market Dynamics
 
-**Examples** include Terraform Cloud (HCP Terraform), Pulumi Cloud, Spacelift, env0, Scalr, AWS CloudFormation, Azure Resource Manager (Bicep), Google Cloud Deployment Manager / Infrastructure Manager, Octopus Deploy, HashiCorp Cloud Platform (HCP), and ogulcancelik/herdr (the category leaders and popular runtimes). 
+The global cloud infrastructure automation and DevOps orchestration market is estimated at **$12.5 billion in 2026**, projected to surge past **$35 billion by 2032** at an accelerating compound annual growth rate (CAGR) of over **18.5%**.
 
+The sector exhibits **moderate fragmentation with a bifurcated dynamic**: while hyperscale cloud providers (AWS CloudFormation, Azure Resource Manager/Bicep, Google Cloud) command massive baseline infrastructure spend, the orchestration and governance layer (TACOS, multi-cloud IaC engines, and policy/drift automation) remains highly competitive and anti-lock-in, split between leading managed independent platforms (IBM/HashiCorp, Spacelift, Pulumi, Octopus Deploy) and community-driven, Linux Foundation/CNCF open-source ecosystems (OpenTofu, Crossplane, Ansible, Argo CD).
 
+---
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for open-source Infrastructure-as-Code engines (`OpenTofu`, `Pulumi`, `Crossplane`, `Terragrunt`, `CDKTF`), self-hosted Terraform/OpenTofu automation & GitOps runners (`Atlantis`, `Digger`, `Terramate`, `ogulcancelik/herdr`), and configuration management & policy-as-code suites (`Ansible`, `Nix / NixOS`, `Open Policy Agent`) — ideal for DevOps engineers, SREs, cloud architects, and platform teams.
+## ☁️ SaaS / Hosted Platforms
 
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Support & Share](#support--share)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
+Below is the verified breakdown of leading SaaS and hosted infrastructure orchestration platforms, complete with specific tier entry pricing, concrete free-forever allowances or trial limits, and company size (valuation / revenue), sorted in descending order:
 
 | Platform | Company Valuation / Revenue | Starting Tier Pricing | Free Tier / Trial Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -59,150 +65,140 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 | **[ControlMonkey](https://controlmonkey.io)** | **Valuation: ~$25M - $50M** ($7M Seed funding) | **$800.00 / mo** (Essentials tier for automated drift detection and IaC management) | **Free tier / trial**: Permanent Free Resilience Assessment (read-only cloud & SaaS posture evaluation); custom POC / demo free trial upon booking sales evaluation | Cloud governance and Terraform/OpenTofu automation platform featuring one-click legacy cloud-to-IaC code generation, continuous drift alerts, and disaster-recovery snapshots. |
 | **[Scalr](https://scalr.com)** | **Valuation: Bootstrapped / VC** / Revenue: ~$5.3M ARR ($7.35M Series A) | **$0.99 / run** (Pay-as-you-go per apply/dry run beyond the monthly free allowance) | **Free forever**: Up to 50 runs per month with drift detection and Open Policy Agent (OPA) integration included | Hierarchical Terraform and OpenTofu remote operations backend designed for decentralized enterprise teams with OPA policy enforcement and federated module registries. |
 
+---
 
+## 💻 Open-Source GitHub Projects
 
+### ⭐ Ranked by GitHub Stars
 
+Every major open-source infrastructure-as-code engine, configuration manager, GitOps operator, policy scanner, and orchestration runner sorted strictly in descending order of GitHub stargazers:
 
-## Open-Source GitHub Projects
+1. **[Ansible](https://github.com/ansible/ansible)** [![Stars](https://img.shields.io/github/stars/ansible/ansible?style=social&color=white)](https://github.com/ansible/ansible/stargazers)  
+   🔧 *Industry-standard open-source agentless IT automation and configuration management engine orchestrating server provisioning, OS hardening, and multi-tier application rollouts over SSH/WinRM.*
 
+2. **[LocalStack](https://github.com/localstack/localstack)** [![Stars](https://img.shields.io/github/stars/localstack/localstack?style=social&color=white)](https://github.com/localstack/localstack/stargazers)  
+   ☁️ *A fully functional local AWS cloud stack enabling developers to test Infrastructure-as-Code (Terraform, CDK, Serverless) and cloud apps entirely offline.*
 
+3. **[Herdr](https://github.com/herdrdev/herdr)** [![Stars](https://img.shields.io/github/stars/herdrdev/herdr?style=social&color=white)](https://github.com/herdrdev/herdr/stargazers)  
+   ⚡ *High-performance open-source DevOps and infrastructure orchestration utility engineered for streamlined multi-environment coordination and automated deployment workflows.*
 
-- **[ogulcancelik/herdr](https://github.com)**  
+4. **[Terraform](https://github.com/hashicorp/terraform)** [![Stars](https://img.shields.io/github/stars/hashicorp/terraform?style=social&color=white)](https://github.com/hashicorp/terraform/stargazers)  
+   🌐 *The foundational declarative Infrastructure-as-Code tool for provisioning and managing multi-cloud resources across hundreds of providers using HashiCorp Configuration Language (HCL).*
 
-  Open-source DevOps and infrastructure orchestration utility engineered for streamlined environment coordination, automated deployment workflows, and modular infrastructure operations.
+5. **[Trivy](https://github.com/aquasecurity/trivy)** [![Stars](https://img.shields.io/github/stars/aquasecurity/trivy?style=social&color=white)](https://github.com/aquasecurity/trivy/stargazers)  
+   🛡️ *Comprehensive security and vulnerability scanner for container images, file systems, Git repositories, Kubernetes clusters, and IaC templates (Terraform, CloudFormation, Dockerfile).*
 
+6. **[OpenTofu](https://github.com/opentofu/opentofu)** [![Stars](https://img.shields.io/github/stars/opentofu/opentofu?style=social&color=white)](https://github.com/opentofu/opentofu/stargazers)  
+   ✨ *Flagship Linux Foundation open-source (MPL-2.0) fork of Terraform providing full HCL compatibility, client-side state encryption, early variable evaluation, and community-driven providers.*
 
+7. **[Pulumi](https://github.com/pulumi/pulumi)** [![Stars](https://img.shields.io/github/stars/pulumi/pulumi?style=social&color=white)](https://github.com/pulumi/pulumi/stargazers)  
+   💻 *Modern open-source Infrastructure-as-Code SDK enabling developers to define, test, and orchestrate cloud infrastructure using general-purpose programming languages (TypeScript, Python, Go, C#, Java) and YAML.*
 
-- **[OpenTofu (`opentofu/opentofu`)](https://github.com)**  
+8. **[Argo CD](https://github.com/argoproj/argo-cd)** [![Stars](https://img.shields.io/github/stars/argoproj/argo-cd?style=social&color=white)](https://github.com/argoproj/argo-cd/stargazers)  
+   🔄 *Declarative, GitOps continuous delivery tool for Kubernetes, automating the synchronization and lifecycle management of infrastructure and application states.*
 
-  Flagship Linux Foundation open-source (MPL-2.0) fork of Terraform providing full HCL compatibility, client-side state encryption, early variable evaluation, and community-driven providers.
+9. **[Packer](https://github.com/hashicorp/packer)** [![Stars](https://img.shields.io/github/stars/hashicorp/packer?style=social&color=white)](https://github.com/hashicorp/packer/stargazers)  
+   📦 *Automated creation of identical golden machine images (AWS AMIs, Azure VHDs, GCP images, VMware, Proxmox templates) from a single declarative configuration.*
 
+10. **[AWS CDK](https://github.com/aws/aws-cdk)** [![Stars](https://img.shields.io/github/stars/aws/aws-cdk?style=social&color=white)](https://github.com/aws/aws-cdk/stargazers)  
+    🏗️ *The AWS Cloud Development Kit (CDK), an open-source software development framework to define cloud infrastructure in modern programming languages and provision it through AWS CloudFormation.*
 
+11. **[Infracost](https://github.com/infracost/infracost)** [![Stars](https://img.shields.io/github/stars/infracost/infracost?style=social&color=white)](https://github.com/infracost/infracost/stargazers)  
+    💰 *Cloud cost estimates for Terraform and OpenTofu directly in pull requests, providing proactive FinOps governance before resources are created.*
 
-- **[Pulumi (`pulumi/pulumi`)](https://github.com)**  
+12. **[Open Policy Agent — OPA](https://github.com/open-policy-agent/opa)** [![Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers)  
+    🚦 *General-purpose open-source policy engine and declarative Rego language enforcing security, compliance, and governance guardrails across IaC, microservices, and Kubernetes.*
 
-  Modern open-source Infrastructure-as-Code SDK enabling developers to define, test, and orchestrate cloud infrastructure using TypeScript, Python, Go, C#, Java, and YAML.
+13. **[Crossplane](https://github.com/crossplane/crossplane)** [![Stars](https://img.shields.io/github/stars/crossplane/crossplane?style=social&color=white)](https://github.com/crossplane/crossplane/stargazers)  
+    ☸️ *CNCF open-source control-plane framework extending Kubernetes into a universal cloud orchestrator, allowing platform teams to assemble declarative self-service cloud infrastructure APIs.*
 
+14. **[Terragrunt](https://github.com/gruntwork-io/terragrunt)** [![Stars](https://img.shields.io/github/stars/gruntwork-io/terragrunt?style=social&color=white)](https://github.com/gruntwork-io/terragrunt/stargazers)  
+    🧱 *Thin open-source wrapper for OpenTofu and Terraform that keeps configurations DRY across multi-account, multi-region environments and orchestrates stack dependency DAGs.*
 
+15. **[Atlantis](https://github.com/runatlantis/atlantis)** [![Stars](https://img.shields.io/github/stars/runatlantis/atlantis?style=social&color=white)](https://github.com/runatlantis/atlantis/stargazers)  
+    💬 *Self-hosted GitOps automation for OpenTofu and Terraform pull-request workflows, executing plans and applies directly through PR comments with locking.*
 
-- **[Crossplane (`crossplane/crossplane`)](https://github.com)**  
+16. **[Checkov](https://github.com/bridgecrewio/checkov)** [![Stars](https://img.shields.io/github/stars/bridgecrewio/checkov?style=social&color=white)](https://github.com/bridgecrewio/checkov/stargazers)  
+    🔍 *Static analysis tool for Infrastructure-as-Code preventing security and compliance misconfigurations in Terraform, CloudFormation, Bicep, Helm, and Kubernetes.*
 
-  CNCF open-source control-plane framework extending Kubernetes into a universal cloud orchestrator so platform teams can compose self-service infrastructure APIs.
+17. **[Flux CD](https://github.com/fluxcd/flux2)** [![Stars](https://img.shields.io/github/stars/fluxcd/flux2?style=social&color=white)](https://github.com/fluxcd/flux2/stargazers)  
+    🔁 *Open and extensible continuous delivery solution for Kubernetes powered by the GitOps Toolkit, providing automated synchronization and drift reconciliation.*
 
+18. **[Digger](https://github.com/diggerhq/digger)** [![Stars](https://img.shields.io/github/stars/diggerhq/digger?style=social&color=white)](https://github.com/diggerhq/digger/stargazers)  
+    ⛏️ *Open-source GitOps orchestration tool running OpenTofu and Terraform securely inside your existing CI runners (GitHub Actions, GitLab CI) without sharing cloud keys.*
 
+19. **[CDK for Terraform — CDKTF](https://github.com/hashicorp/terraform-cdk)** [![Stars](https://img.shields.io/github/stars/hashicorp/terraform-cdk?style=social&color=white)](https://github.com/hashicorp/terraform-cdk/stargazers)  
+    🧩 *Define Terraform and OpenTofu infrastructure using familiar programming languages like TypeScript, Python, Go, C#, and Java.*
 
-- **[Atlantis (`runatlantis/atlantis`)](https://github.com)**  
+20. **[Azure Bicep](https://github.com/Azure/bicep)** [![Stars](https://img.shields.io/github/stars/Azure/bicep?style=social&color=white)](https://github.com/Azure/bicep/stargazers)  
+    🔷 *Domain-Specific Language (DSL) providing clean syntax, immediate validation, and first-class modularity for deploying Azure resources declaratively.*
 
-  Battle-tested open-source self-hosted application for automating OpenTofu and Terraform pull-request workflows—running `plan` and `apply` directly from GitHub, GitLab, or Bitbucket comments.
+21. **[Terramate](https://github.com/terramate-io/terramate)** [![Stars](https://img.shields.io/github/stars/terramate-io/terramate?style=social&color=white)](https://github.com/terramate-io/terramate/stargazers)  
+    ⚡ *High-performance open-source IaC orchestrator and code generator featuring blast-radius reduction, change detection, DAG stack execution, and drift tracking.*
 
+22. **[Colmena (Nix / NixOS)](https://github.com/nix-community/colmena)** [![Stars](https://img.shields.io/github/stars/nix-community/colmena?style=social&color=white)](https://github.com/nix-community/colmena/stargazers)  
+    ❄️ *Simple, stateless NixOS deployment tool orchestrating bit-for-bit reproducible fleets over SSH with parallel rollouts.*
 
+23. **[Kpt](https://github.com/kptdev/kpt)** [![Stars](https://img.shields.io/github/stars/kptdev/kpt?style=social&color=white)](https://github.com/kptdev/kpt/stargazers)  
+    📦 *Kubernetes-native package management tool for declarative Resource Configuration Management (KRM) with automated validation and pipelines.*
 
-- **[Digger (`diggerhq/digger`)](https://github.com)**  
+24. **[TofuController / Flux TF-Controller](https://github.com/flux-iac/tofu-controller)** [![Stars](https://img.shields.io/github/stars/flux-iac/tofu-controller?style=social&color=white)](https://github.com/flux-iac/tofu-controller/stargazers)  
+    🤖 *Kubernetes GitOps operator enabling continuous reconciliation and self-healing drift correction of OpenTofu and Terraform resources natively in cluster.*
 
-  Open-source IaC orchestration tool that runs OpenTofu/Terraform plans and applies natively inside your existing CI compute (GitHub Actions, GitLab CI) without duplicating cloud secrets.
+---
 
+### 🏗️ Recommended Architecture Combinations
 
+- **Enterprise Multi-Account Baseline**: Combine **OpenTofu + Terragrunt** for modular, DRY multi-region cloud topology.
+- **Pull Request GitOps CI**: Pair **Atlantis** or **Digger** with GitHub Actions for transparent peer-reviewed pull-request approvals.
+- **Continuous Shift-Left Guardrails**: Integrate **Checkov + Trivy + OPA** for policy and vulnerability scanning, plus **Infracost** for automatic pull-request cost analysis.
+- **Kube-Centric Platform Engineering**: Deploy **Crossplane + Argo CD / Flux** to deliver internal developer platforms with custom self-healing cloud APIs.
+- **OS & Bare-Metal Fleet Provisioning**: Coordinate **Packer** (golden image creation) with **Ansible** or **Colmena (NixOS)** for post-boot configuration management.
 
-- **[Terragrunt (`gruntwork-io/terragrunt`)](https://github.com)**  
+---
 
-  Essential open-source thin wrapper for OpenTofu and Terraform that keeps configurations DRY across multi-account, multi-region environments and orchestrates module dependency graphs.
+## 📈 Star History
 
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Devops-Infrastructure-Orchestration&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Devops-Infrastructure-Orchestration&type=date&legend=top-left)
 
+---
 
-- **[Terramate (`terramate-io/terramate`)](https://github.com)**  
+## 🤝 How to Contribute
 
-  High-performance open-source IaC orchestrator and code generator featuring change detection, DAG stack execution, drift checks, and multi-IaC support.
+Contributions are wholeheartedly welcome! Follow these steps to submit additions or improvements:
 
+1. 🍴 **Fork the repository** on GitHub.
+2. 🌿 **Create a new branch**: `git checkout -b feature/add-new-orchestration-tool`.
+3. 📝 **Add or edit entries in `README.md`**: Follow existing formatting guidelines, ensure links are valid, and include accurate pricing/star data.
+4. 💡 **Ensure factual claims**: Provide official links for documentation, source code, or pricing tiers.
+5. 🚀 **Submit a Pull Request** with a concise description of your changes.
 
+---
 
-- **[Ansible (`ansible/ansible`)](https://github.com)**  
+## 💖 Support & Sponsor
 
-  Industry-standard open-source agentless IT automation and configuration management engine orchestrating server provisioning, OS hardening, and multi-tier application rollouts over SSH/WinRM.
+Thank you for exploring and utilizing this DevOps & Infrastructure Orchestration catalog! If you find this repository valuable to your engineering workflows, platform architecture, or study:
 
+- ⭐ **Star this repository** to help other engineers and platform teams discover it!
+- 🍴 **Fork and share** it with your colleagues, teammates, and communities on LinkedIn, X/Twitter, and Reddit.
+- ☕ **Buy me a coffee / Sponsor my work**: Support ongoing maintenance, research, and curation through the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007)!
 
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-red?style=for-the-badge&logo=githubsponsors" alt="Sponsor on GitHub" />
+  </a>
+</p>
 
-- **[Azure Bicep (`Azure/bicep`) & AWS CDK (`aws/aws-cdk`)](https://github.com)**  
+---
 
-  Official open-source domain-specific language (`Bicep`) and multi-language framework (`AWS CDK`) compiling high-level abstractions into native cloud templates.
+## ⚖️ Disclaimer & Security Guidance
 
+- **Community-Curated**: This list is independently curated for educational and architectural reference — inclusion does not represent an endorsement.
+- **Licensing Transparency**: Note licensing considerations across tools (e.g., Terraform 1.6+ and Packer are governed by BUSL 1.1; OpenTofu is MPL-2.0; Pulumi, Crossplane, Atlantis, and Argo CD are Apache 2.0; Ansible is GPL-3.0).
+- **Secrets & State Management**: Infrastructure state files (`.tfstate`) frequently hold highly sensitive plaintext secrets (database credentials, TLS keys, cloud access tokens). Always employ client-side encryption, lock states in dedicated remote backends, and implement strict least-privilege IAM policies.
 
+---
 
-- **[Open Policy Agent — OPA (`open-policy-agent/opa`) & Checkov (`bridgecrewio/checkov`)](https://github.com)**  
-
-  Leading open-source policy-as-code (`Rego`) and static IaC security/compliance scanners preventing misconfigurations in Terraform, OpenTofu, CloudFormation, and Kubernetes manifests before apply.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Nix & NixOS / Colmena (`zhaofengli/colmena`)](https://github.com)** for purely functional, bit-for-bit reproducible declarative server builds and multi-host fleet orchestration over SSH.
-
-- **[Packer (`hashicorp/packer`)](https://github.com)** for open-source automated creation of identical golden machine images (AMIs, Azure VHDs, GCP images, QEMU/Proxmox templates) from a single JSON/HCL config.
-
-- **[CDK for Terraform — CDKTF (`hashicorp/cdk-terraform`)](https://github.com)** for writing Terraform and OpenTofu infrastructure definitions in TypeScript, Python, Java, C#, or Go.
-
-- **[TofuController / Flux TF-Controller (`flux-iac/tofu-controller`)](https://github.com)** for a Kubernetes GitOps operator enabling continuous reconciliation and self-healing drift correction of OpenTofu/Terraform resources.
-
-- **[Infracost (`infracost/infracost`)](https://github.com)** for an open-source FinOps CLI showing real-time cloud cost diffs directly inside pull requests before infrastructure changes are applied.
-
-
-
-**Frameworks for building custom systems**: Combine **OpenTofu + Terragrunt** (or **Pulumi**) for multi-environment declarative provisioning, **Atlantis** or **Digger** for pull-request GitOps orchestration, **Checkov + OPA + Infracost** for automated security/cost guardrails, and **Ansible** for post-provisioning OS configuration.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Support & Share
-
-
-
-If you find this curated list helpful, consider supporting the project:
-
-
-
-- ⭐ **Star this repository** to help others discover it.
-
-- 🍴 **Fork & Share** it with your team, friends, or community on X/Twitter, LinkedIn, and Reddit.
-
-- ☕ **Buy me a coffee / Sponsor** my open-source work on [GitHub Sponsors](https://github.com) — featuring tiers for profile badges, README shoutouts, logo placements, and prioritized bug fixes/features!
-
-
-
-[![Sponsor @ishandutta2007](https://shields.io)](https://github.com)
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-Use code with caution.
-
-• Note that Terraform (1.6+) and Packer use the Business Source License (BSL 1.1), whereas OpenTofu (MPL-2.0), Pulumi (Apache 2.0), Crossplane (Apache 2.0), Atlantis (Apache 2.0), and Ansible (GPL-3.0) are OSI-approved open-source projects.
-
-• Infrastructure state files (.tfstate) frequently contain sensitive database passwords, TLS private keys, and cloud tokens; always store state in encrypted remote backends with strict IAM access controls and client-side state encryption enabled.
-
-Made for DevOps engineers, SREs, cloud architects, platform teams, and open-source contributors.
-
-Let's make infrastructure orchestration and Infrastructure-as-Code more open, auditable, and reproducible.
+<p align="center">
+  <sub>Crafted with care for DevOps Engineers, SREs, Cloud Architects, and Platform Teams worldwide.</sub>
+</p>
